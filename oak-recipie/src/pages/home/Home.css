@@ -1,0 +1,22 @@
+.home-wrapper {
+  background: orange;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-wrapper .recipies-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-wrapper .recipies-wrapper .home-img {
+  max-width: 200px;
+}
+
+.recipie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
