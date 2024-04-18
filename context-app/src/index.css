@@ -1,0 +1,18 @@
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
