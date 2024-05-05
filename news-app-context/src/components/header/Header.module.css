@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #ff8800;
+  padding: 0 50px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.formContainer .form {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.formContainer h1 {
+  margin: 0;
+}
+
+.formContainer input {
+  padding: 2px;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+@media screen and (min-width: 600px) {
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .formContainer .form {
+    flex-direction: row;
+  }
+}

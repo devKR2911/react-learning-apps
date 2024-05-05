@@ -1,0 +1,7 @@
+.newsCard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  max-width: 300px;
+}
