@@ -8,7 +8,7 @@ import {
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const counter = useSelector((state) => state.counter);
+  const counter = useSelector((state) => state.counterReducer.counter);
   return (
     <div>
       <p>Counter: {counter}</p>

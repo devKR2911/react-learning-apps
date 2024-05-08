@@ -1,17 +1,19 @@
+import { INCREMENT, DECREMENT, RESET } from "../types/counterTypes";
+
 export const increment = () => {
   return {
-    type: "INCREMENT",
+    type: INCREMENT,
   };
 };
 
 export const decrement = () => {
   return {
-    type: "DECREMENT",
+    type: DECREMENT,
   };
 };
 
 export const reset = () => {
   return {
-    type: "RESET",
+    type: RESET,
   };
 };
