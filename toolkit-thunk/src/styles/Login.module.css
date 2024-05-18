@@ -1,0 +1,22 @@
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 57px);
+  background: #cfcfcf;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.loginFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
