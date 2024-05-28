@@ -1,0 +1,15 @@
+.navWrapper {
+  padding: 25px 10px;
+  border-bottom: 1px solid grey;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.appContainer {
+  margin: 0 auto;
+  text-align: center;
+}
