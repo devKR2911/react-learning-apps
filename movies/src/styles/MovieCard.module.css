@@ -1,0 +1,14 @@
+.movieCard {
+  display: flex;
+  padding: 5px;
+  border: 1px solid grey;
+  width: 300px;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movieList {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

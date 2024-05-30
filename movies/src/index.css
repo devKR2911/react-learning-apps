@@ -5,3 +5,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+.active {
+  background-color: #004949;
+}

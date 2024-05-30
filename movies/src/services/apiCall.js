@@ -6,8 +6,7 @@ export const getMovies = async () => {
 
   try {
     const { data } = await axios(FEATURES_API);
-    console.log(data);
-    return data;
+    return data.results;
   } catch (err) {
     return err;
   }
@@ -19,7 +18,6 @@ export const getMovieDetails = async (id) => {
 
   try {
     const { data } = await axios(FEATURES_API);
-    console.log(data);
     return data;
   } catch (err) {
     return err;
